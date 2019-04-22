@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name B133D01)(type KiCad)(uri ${KIPRJMOD}/B133D01.pretty)(options "")(descr ""))
+  (lib (name FL2015-3LB)(type KiCad)(uri ${KIPRJMOD}/FL2015-3LB.pretty)(options "")(descr ""))
+)
