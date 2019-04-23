@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/tom/grive-Tom.Wimmenhove/Projects/cosmic/pmt/pcb/base/base.sch)
-    (date "Mon 22 Apr 2019 03:56:45 PM EDT")
+    (date "Mon 22 Apr 2019 05:52:09 PM EDT")
     (tool "Eeschema 5.1.0-060a0da~80~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -510,7 +510,7 @@
       (tstamp 5CD76920))
     (comp (ref D2)
       (value 1N4007)
-      (footprint Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal)
+      (footprint Diode_SMD:D_SMB)
       (datasheet http://www.vishay.com/docs/88503/1n4001.pdf)
       (libsource (lib Diode) (part 1N4007) (description "1000V 1A General Purpose Rectifier Diode, DO-41"))
       (sheetpath (names /) (tstamps /))
