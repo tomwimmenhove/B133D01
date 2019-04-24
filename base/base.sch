@@ -197,8 +197,6 @@ Wire Wire Line
 	5250 3300 5100 3300
 Wire Wire Line
 	5550 3300 5700 3300
-Wire Wire Line
-	6050 3500 6050 3000
 $Comp
 L Device:R R23
 U 1 1 5CB3DEC6
@@ -214,10 +212,6 @@ Wire Wire Line
 	4450 3050 4450 3500
 Wire Wire Line
 	4750 3100 4750 3500
-Wire Wire Line
-	4750 3100 5850 3100
-Wire Wire Line
-	5850 3000 5850 3100
 $Comp
 L Device:L L1
 U 1 1 5CB4651F
@@ -308,28 +302,6 @@ F 3 "" H 5550 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C17
-U 1 1 5CB7F2DD
-P 5000 1400
-F 0 "C17" H 4850 1500 50  0000 L CNN
-F 1 "33n" H 4800 1300 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4" H 5038 1250 50  0001 C CNN
-F 3 "~" H 5000 1400 50  0001 C CNN
-	1    5000 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C10
-U 1 1 5CB7FB95
-P 3650 1400
-F 0 "C10" H 3500 1500 50  0000 L CNN
-F 1 "15n" H 3500 1300 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4" H 3688 1250 50  0001 C CNN
-F 3 "~" H 3650 1400 50  0001 C CNN
-	1    3650 1400
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R24
 U 1 1 5CB7FFB0
 P 4750 1250
@@ -353,10 +325,6 @@ Wire Wire Line
 Wire Wire Line
 	5550 1650 5550 1250
 Connection ~ 5550 1650
-Wire Wire Line
-	5000 1250 4900 1250
-Wire Wire Line
-	3750 1250 3650 1250
 $Comp
 L power:GND #PWR0105
 U 1 1 5CB94896
@@ -371,17 +339,16 @@ $EndComp
 $Comp
 L power:GND #PWR0106
 U 1 1 5CB94FE4
-P 3650 1550
-F 0 "#PWR0106" H 3650 1300 50  0001 C CNN
-F 1 "GND" H 3655 1377 50  0000 C CNN
-F 2 "" H 3650 1550 50  0001 C CNN
-F 3 "" H 3650 1550 50  0001 C CNN
-	1    3650 1550
+P 3850 1550
+F 0 "#PWR0106" H 3850 1300 50  0001 C CNN
+F 1 "GND" H 3855 1377 50  0000 C CNN
+F 2 "" H 3850 1550 50  0001 C CNN
+F 3 "" H 3850 1550 50  0001 C CNN
+	1    3850 1550
 	-1   0    0    -1  
 $EndComp
 Text GLabel 2100 1250 0    50   Output ~ 0
 -HV
-Connection ~ 3650 1250
 Wire Wire Line
 	5550 2050 5550 2200
 Connection ~ 5550 2050
@@ -1648,7 +1615,7 @@ $Comp
 L Device:R R30
 U 1 1 5CF5425C
 P 6700 1400
-F 0 "R30" H 6550 1450 50  0000 L CNN
+F 0 "R30" H 6500 1450 50  0000 L CNN
 F 1 "1M" H 6550 1350 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 6630 1400 50  0001 C CNN
 F 3 "~" H 6700 1400 50  0001 C CNN
@@ -1659,7 +1626,7 @@ $Comp
 L Device:R R31
 U 1 1 5CF55E85
 P 6700 1800
-F 0 "R31" H 6550 1850 50  0000 L CNN
+F 0 "R31" H 6500 1850 50  0000 L CNN
 F 1 "1M" H 6550 1750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 6630 1800 50  0001 C CNN
 F 3 "~" H 6700 1800 50  0001 C CNN
@@ -1670,7 +1637,7 @@ $Comp
 L Device:R R32
 U 1 1 5CF5664D
 P 6700 2200
-F 0 "R32" H 6550 2250 50  0000 L CNN
+F 0 "R32" H 6500 2250 50  0000 L CNN
 F 1 "1M" H 6550 2150 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 6630 2200 50  0001 C CNN
 F 3 "~" H 6700 2200 50  0001 C CNN
@@ -1681,7 +1648,7 @@ $Comp
 L Device:R R33
 U 1 1 5CF56DCE
 P 6700 2600
-F 0 "R33" H 6550 2650 50  0000 L CNN
+F 0 "R33" H 6500 2650 50  0000 L CNN
 F 1 "1M" H 6550 2550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 6630 2600 50  0001 C CNN
 F 3 "~" H 6700 2600 50  0001 C CNN
@@ -1721,7 +1688,7 @@ $Comp
 L Device:R R34
 U 1 1 5CFC97AB
 P 6700 3150
-F 0 "R34" H 6550 3200 50  0000 L CNN
+F 0 "R34" H 6500 3200 50  0000 L CNN
 F 1 "1M" H 6550 3100 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 6630 3150 50  0001 C CNN
 F 3 "~" H 6700 3150 50  0001 C CNN
@@ -1853,12 +1820,12 @@ Connection ~ 4450 3050
 $Comp
 L Device:R R20
 U 1 1 5D263EF4
-P 3900 1250
-F 0 "R20" V 3800 1250 50  0000 L CNN
-F 1 "10k" V 3900 1200 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 3830 1250 50  0001 C CNN
-F 3 "~" H 3900 1250 50  0001 C CNN
-	1    3900 1250
+P 4350 650
+F 0 "R20" V 4250 650 50  0000 L CNN
+F 1 "0" V 4350 650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4280 650 50  0001 C CNN
+F 3 "~" H 4350 650 50  0001 C CNN
+	1    4350 650 
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -1905,34 +1872,10 @@ Wire Wire Line
 	4350 1650 4350 1550
 Wire Wire Line
 	4100 1350 4100 1250
-Wire Wire Line
-	4050 1250 4100 1250
 Connection ~ 4100 1250
-$Comp
-L Diode:BZX84Cxx D3
-U 1 1 5D303FBE
-P 4350 850
-F 0 "D3" H 4350 1066 50  0000 C CNN
-F 1 "BZX84C47" H 4350 975 50  0000 C CNN
-F 2 "Diode_SMD:D_SOT-23_ANK" H 4350 675 50  0001 C CNN
-F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf" H 4350 850 50  0001 C CNN
-	1    4350 850 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5000 1250 5550 1250
-Connection ~ 5000 1250
 Wire Wire Line
 	4600 1250 4550 1250
-Wire Wire Line
-	4500 850  4600 850 
-Wire Wire Line
-	4600 850  4600 1250
 Connection ~ 4600 1250
-Wire Wire Line
-	4200 850  4100 850 
-Wire Wire Line
-	4100 850  4100 1250
 Text Notes 2450 5700 0    50   ~ 0
 5v5
 Text GLabel 7550 5150 0    50   Input ~ 0
@@ -2003,8 +1946,6 @@ F 3 "http://www.onsemi.com/pub_link/Collateral/BCP53T1-D.PDF" H 5800 3500 50  00
 	1    5800 3500
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	6000 3500 6050 3500
 Wire Wire Line
 	5100 3700 5400 3700
 Wire Wire Line
@@ -2149,8 +2090,6 @@ Wire Wire Line
 Wire Wire Line
 	2650 3200 2650 3350
 Wire Wire Line
-	2350 1250 3650 1250
-Wire Wire Line
 	2350 1250 2350 2000
 Wire Wire Line
 	2350 1250 2100 1250
@@ -2179,4 +2118,93 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl431.pdf" H 650 4200 50  0001 C CIN
 $EndComp
 Wire Wire Line
 	4550 6300 4750 6300
+Wire Wire Line
+	4200 650  4100 650 
+Wire Wire Line
+	4500 650  4600 650 
+Wire Wire Line
+	4200 950  4100 950 
+Wire Wire Line
+	4100 950  4100 1250
+Wire Wire Line
+	4500 950  4600 950 
+Wire Wire Line
+	4600 950  4600 1250
+Connection ~ 4100 950 
+Connection ~ 4600 950 
+$Comp
+L Diode:BZX84Cxx D3
+U 1 1 5D303FBE
+P 4350 950
+F 0 "D3" H 4350 1166 50  0000 C CNN
+F 1 "BZX84C47" H 4350 1075 50  0000 C CNN
+F 2 "Diode_SMD:D_SOT-23_ANK" H 4350 775 50  0001 C CNN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf" H 4350 950 50  0001 C CNN
+	1    4350 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 650  4100 950 
+Wire Wire Line
+	4600 650  4600 950 
+$Comp
+L Device:C C10
+U 1 1 5CE22DE7
+P 3850 1400
+F 0 "C10" H 3700 1500 50  0000 L CNN
+F 1 "10n" H 3700 1300 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P7.50mm" H 3888 1250 50  0001 C CNN
+F 3 "~" H 3850 1400 50  0001 C CNN
+	1    3850 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C17
+U 1 1 5CE233CF
+P 5000 1400
+F 0 "C17" H 4850 1500 50  0000 L CNN
+F 1 "10n" H 4850 1300 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P7.50mm" H 5038 1250 50  0001 C CNN
+F 3 "~" H 5000 1400 50  0001 C CNN
+	1    5000 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 1250 5000 1250
+Connection ~ 5000 1250
+Wire Wire Line
+	5000 1250 5550 1250
+Connection ~ 3850 1250
+Wire Wire Line
+	3850 1250 4100 1250
+Wire Wire Line
+	6050 3100 6050 3000
+Wire Wire Line
+	4750 3100 6050 3100
+Wire Wire Line
+	2350 1250 3850 1250
+Wire Wire Line
+	5850 3000 5850 3250
+Wire Wire Line
+	5850 3250 6000 3250
+Wire Wire Line
+	6000 3250 6000 3500
+$Comp
+L Device:FL2015-3LB TT1
+U 1 1 5CEA8266
+P 5600 2600
+F 0 "TT1" V 5800 2300 50  0000 R CNN
+F 1 "FL2015-3LB" V 5550 3600 50  0000 R CNN
+F 2 "FL2015-3LB:G23736" H 7250 1150 50  0001 C CNN
+F 3 "" H 7250 1150 50  0001 C CNN
+	1    5600 2600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5100 3000
+Connection ~ 5850 3000
+Connection ~ 5400 3000
+Connection ~ 6050 3000
+Connection ~ 5700 3000
+Connection ~ 5250 2200
+Connection ~ 5850 2200
 $EndSCHEMATC
