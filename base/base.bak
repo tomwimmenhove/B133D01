@@ -347,7 +347,7 @@ U 1 1 5CBBA392
 P 3950 4200
 F 0 "U2" H 4100 4350 50  0000 C CNN
 F 1 "LM358" H 4050 4350 50  0001 C CNN
-F 2 "Package_SO:TSSOP-8_3x3mm_P0.65mm" H 3950 4200 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3950 4200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 3950 4200 50  0001 C CNN
 	1    3950 4200
 	1    0    0    1   
@@ -358,7 +358,7 @@ U 2 1 5CBC4491
 P 2650 4100
 F 0 "U2" H 2650 3900 50  0000 C CNN
 F 1 "LM358" H 2600 4100 50  0000 C CNN
-F 2 "Package_SO:TSSOP-8_3x3mm_P0.65mm" H 2650 4100 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2650 4100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 2650 4100 50  0001 C CNN
 	2    2650 4100
 	1    0    0    1   
@@ -369,7 +369,7 @@ U 3 1 5CBC55E7
 P 3950 4200
 F 0 "U2" H 3650 3950 50  0001 L CNN
 F 1 "LM358" H 3800 4200 50  0000 L CNN
-F 2 "Package_SO:TSSOP-8_3x3mm_P0.65mm" H 3950 4200 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3950 4200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 3950 4200 50  0001 C CNN
 	3    3950 4200
 	1    0    0    -1  
@@ -1426,7 +1426,7 @@ F 3 "" H 2250 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:BCP53 Q2
+L Transistor_BJT:BD249 Q2
 U 1 1 5CC76357
 P 5000 3500
 F 0 "Q2" H 5190 3546 50  0000 L CNN
@@ -1844,7 +1844,7 @@ Wire Wire Line
 	5400 3700 5700 3700
 Connection ~ 5700 3300
 $Comp
-L Transistor_BJT:BCP53 Q4
+L Transistor_BJT:BD249 Q4
 U 1 1 5CC7DF8F
 P 5800 3500
 F 0 "Q4" H 5991 3546 50  0000 L CNN

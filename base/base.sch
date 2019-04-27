@@ -1426,7 +1426,7 @@ F 3 "" H 2250 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:BCP53 Q2
+L Transistor_BJT:BD249 Q2
 U 1 1 5CC76357
 P 5000 3500
 F 0 "Q2" H 5190 3546 50  0000 L CNN
@@ -1844,7 +1844,7 @@ Wire Wire Line
 	5400 3700 5700 3700
 Connection ~ 5700 3300
 $Comp
-L Transistor_BJT:BCP53 Q4
+L Transistor_BJT:BD249 Q4
 U 1 1 5CC7DF8F
 P 5800 3500
 F 0 "Q4" H 5991 3546 50  0000 L CNN
