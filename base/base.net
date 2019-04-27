@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/tom/grive-Tom.Wimmenhove/Projects/cosmic/pmt/pcb/base/base.sch)
-    (date "Fri 26 Apr 2019 10:12:59 PM EDT")
+    (date "Sat 27 Apr 2019 06:07:27 PM EDT")
     (tool "Eeschema 5.1.0-060a0da~80~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -373,7 +373,7 @@
       (tstamp 5CEF856A))
     (comp (ref J2)
       (value Out)
-      (footprint Connector_Coaxial:SMA_Amphenol_901-144_Vertical)
+      (footprint Connector_Coaxial:SMA_Amphenol_132291-12_Vertical)
       (datasheet " ~")
       (libsource (lib Connector) (part Conn_Coaxial) (description "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"))
       (sheetpath (names /) (tstamps /))

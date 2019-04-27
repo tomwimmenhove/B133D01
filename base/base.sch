@@ -1036,7 +1036,7 @@ U 1 1 5CEFB493
 P 10850 2000
 F 0 "J2" H 10950 1975 50  0000 L CNN
 F 1 "Out" H 10950 1884 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_901-144_Vertical" H 10850 2000 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132291-12_Vertical" H 10850 2000 50  0001 C CNN
 F 3 " ~" H 10850 2000 50  0001 C CNN
 	1    10850 2000
 	1    0    0    -1  
