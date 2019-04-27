@@ -1,4 +1,4 @@
-update=Mon 22 Apr 2019 06:21:22 PM EDT
+update=Fri 26 Apr 2019 05:35:19 PM EDT
 version=1
 last_client=kicad
 [general]
@@ -40,11 +40,12 @@ MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.25
 TrackWidth2=0.254
-TrackWidth3=0.381
-TrackWidth4=0.508
-TrackWidth5=0.635
-TrackWidth6=1.016
-TrackWidth7=1.27
+TrackWidth3=0.3048
+TrackWidth4=0.381
+TrackWidth5=0.508
+TrackWidth6=0.635
+TrackWidth7=1.016
+TrackWidth8=1.27
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
