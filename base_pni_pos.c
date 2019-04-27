@@ -20,8 +20,8 @@ int main()
 	{
 		double theta = M_PI * 2.0f / 28;
 
-		double x = sin(theta) * 10.5;
-		double y = cos(theta) * 10.5;
+		double x = sin(theta) * 10.0f;
+		double y = cos(theta) * 10.0f;
 
 		printf("%f %f\n", x, -y);
 	}
