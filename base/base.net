@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/tom/grive-Tom.Wimmenhove/Projects/cosmic/pmt/pcb/base/base.sch)
-    (date "Sat 27 Apr 2019 11:28:28 PM EDT")
+    (date "Sun 28 Apr 2019 12:18:58 AM EDT")
     (tool "Eeschema 5.1.0-060a0da~80~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -632,7 +632,7 @@
       (tstamp 5CAF9D22))
     (comp (ref T1)
       (value FL2015-3LB)
-      (footprint FL2015-3LB:FL2015-3LB)
+      (footprint FL2015-3LB:FL2015-4LB)
       (libsource (lib Device) (part FL2015-3LB) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D3AABDE))
