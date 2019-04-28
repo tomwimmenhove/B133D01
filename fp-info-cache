@@ -1,4 +1,4 @@
-15143944711697899
+15151727079388719
 B133D01
 B133D01
 
@@ -43973,6 +43973,41 @@ heatsink
 0
 2
 1
+HvSymbol
+Symbol_HighVoltage_Type1_SilkScreenTop_Big
+Symbol, HighVoltage, Type1, Copper Top, Big,
+Symbol, HighVoltage, Type1, Copper Top, Big,
+0
+0
+0
+HvSymbol
+Symbol_Highvoltage_Type1_SilkScreenTop_Small
+Symbol, Highvoltage, Type 1, Copper Top, Small,
+Symbol, Highvoltage, Type 1, Copper Top, Small,
+0
+0
+0
+HvSymbol
+Symbol_HighVoltage_Type2_SilkScreenTop_Big
+Symbol, HighVoltage, Type2, Copper Top, Big,
+Symbol, HighVoltage, Type2, Copper Top, Big,
+0
+0
+0
+HvSymbol
+Symbol_Highvoltage_Type2_SilkScreenTop_Small
+Symbol, Highvoltage, Type 2, Copper Top, Small,
+Symbol, Highvoltage, Type 2, Copper Top, Small,
+0
+0
+0
+HvSymbol
+Symbol_HighVoltage_Type2_SilkScreenTop_VerySmall
+Symbol, High Voltage, Type 2, Copper Top, Very Small,
+Symbol, High Voltage, Type 2, Copper Top, Very Small,
+0
+0
+0
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
