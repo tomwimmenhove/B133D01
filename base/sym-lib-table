@@ -1,6 +1,4 @@
 (sym_lib_table
   (lib (name B133D01)(type Legacy)(uri ${KIPRJMOD}/B133D01.lib)(options "")(descr ""))
-  (lib (name ZDT1048)(type Legacy)(uri /home/tom/grive-Tom.Wimmenhove/Projects/cosmic/pmt/pcb/ZDT1048.lib)(options "")(descr ""))
-  (lib (name transformer)(type Legacy)(uri /home/tom/grive-Tom.Wimmenhove/Projects/cosmic/pmt/pcb/transformer.lib)(options "")(descr ""))
   (lib (name FL2015)(type Legacy)(uri ${KIPRJMOD}/FL2015.lib)(options "")(descr ""))
 )
