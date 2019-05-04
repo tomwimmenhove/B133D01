@@ -2,4 +2,5 @@
   (lib (name B133D01)(type KiCad)(uri ${KIPRJMOD}/B133D01.pretty)(options "")(descr ""))
   (lib (name FL2015)(type KiCad)(uri ${KIPRJMOD}/FL2015.pretty)(options "")(descr ""))
   (lib (name HvSymbol)(type KiCad)(uri ${KIPRJMOD}/HvSymbol.pretty)(options "")(descr ""))
+  (lib (name slots)(type KiCad)(uri ${KIPRJMOD}/slots.pretty)(options "")(descr ""))
 )

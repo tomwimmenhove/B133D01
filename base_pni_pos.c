@@ -16,6 +16,19 @@ int main()
 		printf("%d: %f %f\n", i + 1, x, -y);
 	}
 
+	printf("\nPin names:\n");
+	for (int i = 0; i < 14; i++)
+	{
+		double theta = M_PI * 2.0f * (double) i / 14.0;
+
+		double x = sin(theta) * 19.0f;
+		double y = cos(theta) * 19.0f;
+
+		printf("%d: %f %f -- %f deg\n", i + 1, x, -y, theta * 360.0f / M_PI / 2.0f);
+	}
+
+
+
 	printf("\npointy bit:\n");
 	{
 		double theta = M_PI * 2.0f / 28;

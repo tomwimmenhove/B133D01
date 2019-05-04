@@ -1,0 +1,14 @@
+(module LSlot (layer F.Cu) (tedit 5CCDC021)
+  (fp_text reference Slot** (at 0 2) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value LSlot (at 0 -3.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -1.5 -1.5) (end -1.5 1) (layer Edge.Cuts) (width 0.12))
+  (fp_line (start -1.5 1) (end -2.5 1) (layer Edge.Cuts) (width 0.12))
+  (fp_line (start -2.5 1) (end -2.5 -2.5) (layer Edge.Cuts) (width 0.12))
+  (fp_line (start -2.5 -2.5) (end 2.5 -2.5) (layer Edge.Cuts) (width 0.12))
+  (fp_line (start -1.5 -1.5) (end 2.5 -1.5) (layer Edge.Cuts) (width 0.12))
+  (fp_line (start 2.5 -1.5) (end 2.5 -2.5) (layer Edge.Cuts) (width 0.12))
+)
